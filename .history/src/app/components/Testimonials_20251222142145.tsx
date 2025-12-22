@@ -3,7 +3,7 @@ import { Star } from 'lucide-react';
 export function Testimonials() {
   const testimonials = [
     {
-      name: 'Ajay koshya',
+      name: 'Ajay ',
       position: 'Project Manager',
       company: 'Pinaca Technologies',
       content: 'Great designer who delivers quality work on time. Highly recommended!',
@@ -17,7 +17,7 @@ export function Testimonials() {
       rating: 5,
     },
     {
-      name: 'Prashanth',
+      name: 'Arun Patel',
       position: 'Product Lead',
       company: 'THETTG',
       content: 'Excellent attention to detail and user-focused approach.',

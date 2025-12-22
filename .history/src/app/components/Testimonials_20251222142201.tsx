@@ -17,7 +17,7 @@ export function Testimonials() {
       rating: 5,
     },
     {
-      name: 'Prashanth',
+      name: '',
       position: 'Product Lead',
       company: 'THETTG',
       content: 'Excellent attention to detail and user-focused approach.',
