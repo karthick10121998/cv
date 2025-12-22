@@ -56,7 +56,7 @@ export function Hero() {
                     <img
                       src={profileImage}
                       alt="Karthickraja"
-                      className=" block object-cover"
+                      className="w-xl h-auto block object-cover"
                     />
                   </div>
                 </div>
@@ -87,10 +87,10 @@ export function Hero() {
                 </span>
               </div>
 
-              <h1 className="text-4xl md:text-6xl lg:text-5xl leading-tight font-bold">
+              <h1 className="text-4xl md:text-6xl lg:text-6xl leading-tight font-bold">
                 Hello! I'm
                 <br />
-                <span className="text-[#c7ff4d]">Karthickraja</span> 
+                <span className="text-[#c7ff4d]">Karthickraja</span>
                 <span className="text-[#ffffff]"> Velmurugan</span>
               </h1>
 
