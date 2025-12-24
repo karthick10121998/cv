@@ -8,7 +8,7 @@ import {
   Mail,
 } from "lucide-react";
 import profileImage from "../../assets/herosection.jpg";
-import resumePDF from "../../assets/KarthickrajaVelmurugan Update Resume.pdf";
+import resumePDF from "../../assets/src\assets\KarthickrajaVelmurugan Update Resume.pdf";
 
 export function Hero() {
   const [currentRole, setCurrentRole] = useState(0);
