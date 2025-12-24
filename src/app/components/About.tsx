@@ -1,11 +1,11 @@
 import { Award, Heart, Coffee, Code } from 'lucide-react';
-import aboutImage from '../../assets/e95742ed5fdb4f53532c19d5283796ec01c5d246.png';
+import aboutImage from '../../assets/karthi.png';
 
 export function About() {
   const funFacts = [
     { icon: Code, label: 'Songs Listened', value: '5000+' },
     { icon: Coffee, label: 'Cups of Coffee', value: '2000+' },
-    { icon: Heart, label: 'Outdoor Games', value: '100+' },
+    { icon: Heart, label: 'Outdoor Games', value: '20+' },
     { icon: Award, label: 'Friends Made', value: '500+' },
   ];
 
@@ -70,13 +70,7 @@ export function About() {
               <div className="absolute -bottom-4 -right-4 w-20 h-20 border-r-4 border-b-4 border-[#c7ff4d] rounded-br-2xl"></div>
             </div>
 
-            {/* Quote - Moved here for better spacing */}
-            <div className="relative mt-8 p-6 bg-gradient-to-br from-[#c7ff4d]/10 to-transparent border-l-4 border-[#c7ff4d] rounded-r-xl">
-              <div className="text-6xl text-[#c7ff4d]/20 absolute top-2 left-4">"</div>
-              <p className="text-white/90 italic relative z-10 pl-8 text-sm md:text-base">
-                Don't Just Steal The Style, Steal The Thinking Behind The Style
-              </p>
-            </div>
+            
           </div>
 
           {/* Right - Content */}
@@ -116,6 +110,14 @@ export function About() {
                 <div className="text-[#c7ff4d] text-sm mb-1">Address:</div>
                 <div className="text-lg">Bengaluru, Karnataka</div>
               </div>
+            </div>
+
+            {/* Quote - Moved here for better spacing */}
+            <div className="relative mt-8 p-6 bg-gradient-to-br from-[#c7ff4d]/10 to-transparent border-l-4 border-[#c7ff4d] rounded-r-xl">
+              <div className="text-6xl text-[#c7ff4d]/20 absolute top-2 left-4">"</div>
+              <p className="text-white/90 italic relative z-10 pl-8 text-sm md:text-base">
+                Don't Just Steal The Style, Steal The Thinking Behind The Style
+              </p>
             </div>
           </div>
         </div>

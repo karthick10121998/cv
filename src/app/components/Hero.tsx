@@ -7,7 +7,7 @@ import {
   Instagram,
   Mail,
 } from "lucide-react";
-import profileImage from "../../assets/4770fda97463ab6bf6756bc775069b68d961c6c1.png";
+import profileImage from "../../assets/herosection.jpg";
 import resumePDF from "../../assets/Carthee Carthee.pdf";
 
 export function Hero() {
