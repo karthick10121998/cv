@@ -105,7 +105,7 @@ export function Hero() {
             <div className="flex flex-wrap justify-center lg:justify-start gap-4">
               <a
                 href={resumePDF}
-                download="KarthickrajaVelmurugan Resume.pdf"
+                download="KarthickrajaVelmuurgan.pdf"
                 className="group px-6 py-3 md:px-8 md:py-4 bg-[#c7ff4d] text-black rounded-full hover:bg-[#d4ff70] transition-all duration-300 shadow-lg shadow-[#c7ff4d]/20 hover:shadow-[#c7ff4d]/40 hover:-translate-y-1 flex items-center gap-2"
               >
                 Download CV
