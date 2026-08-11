@@ -71,7 +71,7 @@ export function Experience() {
             Career Journey
           </div>
           <h2 className="text-4xl md:text-5xl mb-4">
-            Work <span className="text-[#c7ff4d]">Experience</span>
+            Where <span className="text-[#c7ff4d]">Design</span> Meets  <span className="text-[#c7ff4d]">Impact</span>
           </h2>
         </div>
 

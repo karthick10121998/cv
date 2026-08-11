@@ -64,7 +64,7 @@ export function Projects() {
       confidential: false,
     },
     {
-      title: 'Event Marketing Campaign',
+      title: 'Social Media Campaigns',
       category: 'Poster Design',
       description: 'Eye-catching poster designs for promotional campaigns with compelling visual storytelling.',
       image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800&q=80',
@@ -72,7 +72,7 @@ export function Projects() {
       confidential: false,
     },
     {
-      title: 'Brand Promotional Video',
+      title: 'Project & Product Video Content',
       category: 'Video Editing',
       description: 'Professional video editing with motion graphics using After Effects, Premiere Pro, and DaVinci Resolve.',
       image: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800&q=80',
@@ -94,11 +94,13 @@ export function Projects() {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-16 gap-6">
           <div>
             <div className="inline-block px-4 py-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full text-[#c7ff4d] text-sm mb-4">
-              My Portfolio
+              My Design Superpowers
             </div>
-            <h2 className="text-4xl md:text-5xl mb-4">
-              Featured <span className="text-[#c7ff4d]">Projects</span>
+            <h2 className="text-4xl md:text-4xl mb-4">
+              THE STUFF I CAN <span className="text-[#c7ff4d]">ACTUALLY SHOW</span>
             </h2>
+            <h4 className="text-md text-white/50 mb-4">Some of my professional work stays behind the NDA. The work below is my personal and shareable design work, covering UI/UX, visual design, and creative experiments.</h4>
+
           </div>
 
           {/* Custom Dropdown */}
@@ -169,11 +171,11 @@ export function Projects() {
 
               {/* Content */}
               <div className="p-6">
-                <h3 className="text-xl mb-3 group-hover:text-[#c7ff4d] transition-colors duration-300">
+                <h3 className="text-xl mb-3 group-hover:text-[#c7ff4d] transition-colors duration-300 ">
                   {project.title}
                 </h3>
                 
-                <p className="text-white/70 text-sm mb-4">
+                <p className="text-white/70 text-sm mb-4 text-justify">
                   {project.description}
                 </p>
 
@@ -190,12 +192,12 @@ export function Projects() {
                 </div>
 
                 {/* View Button */}
-                {!project.confidential && (
+                {/* {!project.confidential && (
                   <button className="w-full py-2.5 border border-white/10 rounded-xl hover:border-[#c7ff4d] hover:text-[#c7ff4d] hover:bg-[#c7ff4d]/5 transition-all duration-300 flex items-center justify-center gap-2 text-sm group/btn">
                     <span>View Details</span>
                     <ExternalLink size={14} className="group-hover/btn:translate-x-1 transition-transform duration-300" />
                   </button>
-                )}
+                )} */}
               </div>
             </div>
           ))}

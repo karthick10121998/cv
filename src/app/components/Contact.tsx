@@ -79,7 +79,7 @@ export function Contact() {
         {/* Header */}
         <div className="mb-16 text-center">
           <div className="inline-block px-4 py-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full text-[#c7ff4d] text-sm mb-4">
-            Let's Connect
+            Let’s Make Something
           </div>
           <h2 className="text-4xl md:text-5xl mb-4">
             Get In <span className="text-[#c7ff4d]">Touch</span>

@@ -101,7 +101,7 @@ export function Resume() {
         <div className="mb-16 flex flex-col md:flex-row md:items-end md:justify-between gap-6">
           <div>
             <div className="inline-block px-4 py-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full text-[#c7ff4d] text-sm mb-4">
-              My Resume
+              The Journey So Far
             </div>
             <h2 className="text-4xl md:text-5xl mb-4">
               Professional <span className="text-[#c7ff4d]">Journey</span>

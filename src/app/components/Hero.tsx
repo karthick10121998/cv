@@ -54,7 +54,7 @@ export function Hero() {
               </div>
 
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight">
-                Hello! I'm
+                Hey, I'm
                 <br />
                 <span className="text-[#c7ff4d]">Karthickraja</span>
               </h1>

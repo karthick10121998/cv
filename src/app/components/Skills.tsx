@@ -55,12 +55,12 @@ export function Skills() {
         {/* Header */}
         <div className="mb-16">
           <div className="inline-block px-4 py-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full text-[#c7ff4d] text-sm mb-4">
-            My Expertise
+            Selected Work
           </div>
           <h2 className="text-4xl md:text-5xl mb-4">
             Things I'm <span className="text-[#c7ff4d]">Good At</span>
           </h2>
-          <p className="text-white/50 text-base">Besides moving pixels.</p>
+          <p className="text-white/50 text-base">A collection of ideas brought to life.</p>
         </div>
 
         {/* Skill Category Cards */}

@@ -33,11 +33,14 @@ export function Testimonials() {
         {/* Header */}
         <div className="mb-16">
           <div className="inline-block px-4 py-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full text-[#c7ff4d] text-sm mb-4">
-            Client Feedback
+            Kind Words
           </div>
           <h2 className="text-4xl md:text-5xl mb-4">
-            What Clients <span className="text-[#c7ff4d]">Say</span>
+            What They <span className="text-[#c7ff4d]">Say</span>
           </h2>
+          <h4 className="text-white/50 text-lg">
+            Here's what professionals have to say about working with me.
+          </h4>
         </div>
 
         {/* Testimonials Grid */}

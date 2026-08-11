@@ -63,10 +63,10 @@ export function Services() {
             What I Offer
           </div>
           <h2 className="text-4xl md:text-5xl mb-4">
-            My <span className="text-[#c7ff4d]">Services</span>
+            What I <span className="text-[#c7ff4d]">Create</span>
           </h2>
           <p className="text-white/70 text-lg max-w-2xl">
-            Comprehensive design and development solutions tailored to your needs
+            I make ideas look good—and work better
           </p>
         </div>
 
@@ -92,7 +92,7 @@ export function Services() {
               </h3>
 
               {/* Description */}
-              <p className="text-white/60 text-sm leading-relaxed group-hover:text-white/80 transition-colors duration-300">
+              <p className="text-white/60 text-sm leading-relaxed group-hover:text-white/80 transition-colors duration-300 text-justify">
                 {service.description}
               </p>
             </div>
