@@ -103,7 +103,7 @@ export function About() {
             <div className="grid grid-cols-2 gap-3">
               {[
                 { label: 'Experience', value: '3+ Years' },
-                { label: 'Location', value: 'Ariyalur, TN' },
+                { label: 'Location', value: 'Ariyalur, Tamil Nadu' },
                 { label: 'Specialization', value: 'AI + Product Design' },
                 { label: 'Phone', value: '+91 8489215911' },
               ].map((info, i) => (
@@ -116,27 +116,7 @@ export function About() {
           </div>
         </div>
 
-        {/* Fun Facts */}
-        <div className="mb-16">
-          <h3 className="text-2xl mb-8">
-            Fun <span className="text-[#c7ff4d]">Facts</span>
-          </h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {funFacts.map((fact, index) => (
-              <div
-                key={index}
-                className="bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-sm border border-white/10 rounded-2xl p-6 text-center hover:border-[#c7ff4d]/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:shadow-[#c7ff4d]/10 animate-fade-in-up"
-                style={{ animationDelay: `${index * 100}ms` }}
-              >
-                <div className="w-12 h-12 bg-[#c7ff4d]/10 rounded-xl flex items-center justify-center mx-auto mb-4 transition-transform duration-500 hover:scale-110 hover:rotate-6">
-                  <fact.icon className="text-[#c7ff4d]" size={20} />
-                </div>
-                <div className="text-3xl text-[#c7ff4d] mb-2">{fact.value}</div>
-                <div className="text-white/60 text-sm">{fact.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
+      
 
         {/* Clients */}
         <div className="mb-16">
@@ -235,6 +215,29 @@ export function About() {
                 <h4 className="text-lg mb-2">{edu.title}</h4>
                 <p className="text-white/60 text-sm mb-1">{edu.institution}</p>
                 <p className="text-white/40 text-sm">{edu.period}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+        <br />
+
+          {/* Fun Facts */}
+        <div className="mb-16">
+          <h3 className="text-2xl mb-8">
+            Fun <span className="text-[#c7ff4d]">Facts</span>
+          </h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {funFacts.map((fact, index) => (
+              <div
+                key={index}
+                className="bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-sm border border-white/10 rounded-2xl p-6 text-center hover:border-[#c7ff4d]/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:shadow-[#c7ff4d]/10 animate-fade-in-up"
+                style={{ animationDelay: `${index * 100}ms` }}
+              >
+                <div className="w-12 h-12 bg-[#c7ff4d]/10 rounded-xl flex items-center justify-center mx-auto mb-4 transition-transform duration-500 hover:scale-110 hover:rotate-6">
+                  <fact.icon className="text-[#c7ff4d]" size={20} />
+                </div>
+                <div className="text-3xl text-[#c7ff4d] mb-2">{fact.value}</div>
+                <div className="text-white/60 text-sm">{fact.label}</div>
               </div>
             ))}
           </div>

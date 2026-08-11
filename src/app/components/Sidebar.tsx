@@ -1,4 +1,4 @@
-import { Home, User, Briefcase, Award, FolderOpen, MessageSquare, Mail } from 'lucide-react';
+import { Home, User, Briefcase, Award, FolderOpen, MessageSquare, Mail, Puzzle} from 'lucide-react';
 import { useState } from 'react';
 
 interface SidebarProps {
@@ -13,7 +13,7 @@ export function Sidebar({ activeSection }: SidebarProps) {
     { id: 'about', label: 'About', icon: User },
     { id: 'resume', label: 'Resume', icon: Award },
     { id: 'services', label: 'Services', icon: Briefcase },
-    { id: 'skills', label: 'Skills', icon: Award },
+    { id: 'skills', label: 'Skills', icon:  Puzzle},
     { id: 'projects', label: 'Projects', icon: FolderOpen },
     { id: 'testimonials', label: 'Testimonials', icon: MessageSquare },
     { id: 'contact', label: 'Contact', icon: Mail },

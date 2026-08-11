@@ -38,7 +38,7 @@ export function Testimonials() {
           <h2 className="text-4xl md:text-5xl mb-4">
             What They <span className="text-[#c7ff4d]">Say</span>
           </h2>
-          <h4 className="text-white/50 text-lg">
+          <h4 className="text-white/50 text-md">
             Here's what professionals have to say about working with me.
           </h4>
         </div>

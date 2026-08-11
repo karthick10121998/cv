@@ -30,8 +30,8 @@ export function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'karthickrajavelmurrugan10@gmail.com',
-      link: 'mailto:karthickrajavelmurrugan10@gmail.com',
+      value: 'karthickrajavelmurugan10@gmail.com',
+      link: 'mailto:karthickrajavelmurugan10@gmail.com',
       color: '#c7ff4d',
     },
     {
@@ -136,7 +136,7 @@ export function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:border-[#c7ff4d] focus:outline-none transition-all duration-300 text-white"
-                    placeholder="John Doe"
+                    placeholder="Carthee"
                   />
                 </div>
 
@@ -152,7 +152,7 @@ export function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:border-[#c7ff4d] focus:outline-none transition-all duration-300 text-white"
-                    placeholder="john@example.com"
+                    placeholder="carthee@example.com"
                   />
                 </div>
               </div>
@@ -169,7 +169,7 @@ export function Contact() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:border-[#c7ff4d] focus:outline-none transition-all duration-300 text-white"
-                  placeholder="Project Inquiry"
+                  placeholder="Have a project? Don’t just think about it."
                 />
               </div>
 
@@ -185,7 +185,7 @@ export function Contact() {
                   required
                   rows={6}
                   className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:border-[#c7ff4d] focus:outline-none transition-all duration-300 text-white resize-none"
-                  placeholder="Tell me about your project..."
+                  placeholder="Send me the idea — I’ll bring the pixels, UX, and a little magic...."
                 ></textarea>
               </div>
 
