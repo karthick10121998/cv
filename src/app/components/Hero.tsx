@@ -155,34 +155,169 @@ export function Hero() {
 
           {/* Right Content - Profile Image */}
           <div className="order-1 lg:order-2 flex justify-center lg:justify-end h-screen lg:h-auto lg:min-h-[600px]">
-            <div className="relative w-full max-w-[320px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[600px] h-full lg:h-auto aspect-[3/4] lg:aspect-auto">
-              {/* Glow Effect */}
-              <div className="absolute -inset-8 bg-gradient-to-br from-[#c7ff4d]/20 via-blue-500/20 to-purple-500/20 rounded-[2rem] blur-3xl animate-pulse"></div>
+            {/* Profile Image Section */}
+            <div className="relative w-full flex items-center justify-center px-4 sm:px-6 lg:px-8">
+              {/* Decorative Glow - Top Right */}
+              <div
+                className="
+      absolute
+      -top-6
+      -right-4
+      sm:-top-8
+      sm:-right-8
+      w-24
+      h-24
+      sm:w-32
+      sm:h-32
+      bg-[#c7ff4d]/10
+      rounded-full
+      blur-2xl
+      animate-pulse
+      pointer-events-none
+    "
+              />
 
-              {/* Image Container */}
-              <div className="relative w-full h-full">
-                {/* Main image wrapper with border gradient */}
-                <div className="relative rounded-[2rem] overflow-hidden border-2 border-white/10 bg-gradient-to-br from-white/10 to-white/5 p-1 hover:scale-[1.02] transition-all duration-700 shadow-2xl w-full h-full max-w-[280px] sm:max-w-sm md:max-w-md lg:max-w-lg">
-                  <div className="rounded-[1.8rem] overflow-hidden bg-gradient-to-br from-[#1a1a1a] to-[#0f0f0f] w-full h-full">
-                    <img
-                      src={profileImage}
-                      alt="Karthickraja"
-                      className="block w-full h-auto object-contain"
-                    />
-                  </div>
+              {/* Decorative Glow - Bottom Left */}
+              <div
+                className="
+      absolute
+      -bottom-6
+      -left-4
+      sm:-bottom-8
+      sm:-left-8
+      w-28
+      h-28
+      sm:w-40
+      sm:h-40
+      bg-blue-500/10
+      rounded-full
+      blur-2xl
+      animate-pulse
+      pointer-events-none
+    "
+                style={{ animationDelay: "1s" }}
+              />
+
+              {/* Main Image Wrapper */}
+              <div
+                className="
+      relative
+      w-full
+      max-w-[240px]
+      sm:max-w-[300px]
+      md:max-w-[360px]
+      lg:max-w-[420px]
+      xl:max-w-[460px]
+
+      aspect-[3/4]
+
+      rounded-[1.5rem]
+      sm:rounded-[2rem]
+
+      overflow-hidden
+
+      border-2
+      border-white/10
+
+      bg-gradient-to-br
+      from-white/10
+      to-white/5
+
+      p-1
+
+      shadow-2xl
+
+      transition-all
+      duration-700
+
+      hover:scale-[1.02]
+    "
+              >
+                {/* Inner Image Container */}
+                <div
+                  className="
+        relative
+        w-full
+        h-full
+
+        rounded-[1.3rem]
+        sm:rounded-[1.8rem]
+
+        overflow-hidden
+
+        bg-gradient-to-br
+        from-[#1a1a1a]
+        to-[#0f0f0f]
+
+        flex
+        items-center
+        justify-center
+      "
+                >
+                  {/* Profile Image */}
+                  <img
+                    src={profileImage}
+                    alt="Karthickraja"
+                    className="
+          block
+          w-full
+          h-full
+          object-contain
+          object-center
+        "
+                  />
                 </div>
               </div>
 
-              {/* Decorative Elements */}
-              <div className="absolute -top-8 -right-8 w-32 h-32 bg-[#c7ff4d]/10 rounded-full blur-2xl animate-pulse"></div>
-              <div
-                className="absolute -bottom-8 -left-8 w-40 h-40 bg-blue-500/10 rounded-full blur-2xl animate-pulse"
-                style={{ animationDelay: "1s" }}
-              ></div>
+              {/* Top Left Corner Accent */}
+              {/* <div
+                className="
+      absolute
+      top-[-10px]
+      left-1/2
+      -translate-x-1/2
 
-              {/* Corner accents */}
-              <div className="absolute -top-3 -left-3 w-16 h-16 border-l-2 border-t-2 border-[#c7ff4d]/50 rounded-tl-2xl"></div>
-              <div className="absolute -bottom-3 -right-3 w-16 h-16 border-r-2 border-b-2 border-[#c7ff4d]/50 rounded-br-2xl"></div>
+      w-12
+      h-12
+
+      sm:w-16
+      sm:h-16
+
+      border-l-2
+      border-t-2
+
+      border-[#c7ff4d]/50
+
+      rounded-tl-2xl
+
+      pointer-events-none
+    "
+              /> */}
+
+              {/* Bottom Right Corner Accent */}
+              {/* <div
+                className="
+      absolute
+      bottom-[-10px]
+      left-1/2
+      -translate-x-1/2
+
+      w-12
+      h-12
+
+      sm:w-16
+      sm:h-16
+
+      border-r-2
+      border-b-2
+
+      border-[#c7ff4d]/50
+
+      rounded-br-2xl
+
+      pointer-events-none
+    "
+              /> */}
             </div>
           </div>
         </div>
