@@ -86,17 +86,9 @@ export function About() {
               <p>
                 UI/UX and Product Designer with 3+ years of experience designing AI products,
                 enterprise applications, dashboards, and responsive web experiences. I make
-                complicated things look suspiciously simple.
+                complicated things look suspiciously simple.As a UI/UX and Product Designer with 3+ years of experience, I bring together visual design, product thinking, and a technical understanding of how things are built. My recent work with the Indian Navy’s AI organization, INICAI, has given me the opportunity to design complex AI products across online and fully offline environments. I enjoy taking complicated workflows and turning them into clear, useful experiences — making technology feel less intimidating and a little more human.
               </p>
-              <p>
-                I've worked on online and fully offline AI projects for the Indian Navy's AI
-                organization, INICAI — designing interfaces where clarity isn't optional. Skilled
-                in UX research, user flows, wireframing, prototyping, and design systems.
-              </p>
-              <p>
-                I work closely with developers, AI teams, product teams, and stakeholders to
-                turn complex workflows into simple, practical, and human-friendly experiences.
-              </p>
+              
             </div>
 
             {/* Personal Info */}
