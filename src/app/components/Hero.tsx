@@ -29,7 +29,7 @@ export function Hero() {
   }, []);
 
   return (
-    <section className="h-full min-h-screen flex items-center justify-center relative overflow-hidden pt-8 pb-24 lg:py-0">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden py-16 sm:py-20 lg:py-0">
       {/* Animated Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#c7ff4d]/10 rounded-full blur-3xl animate-pulse"></div>
@@ -154,9 +154,9 @@ export function Hero() {
           </div>
 
           {/* Right Content - Profile Image */}
-          <div className="order-1 lg:order-2 flex justify-center lg:justify-end h-screen lg:h-auto lg:min-h-[600px]">
+          <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
             {/* Profile Image Section */}
-            <div className="relative w-full flex items-center justify-center px-4 sm:px-6 lg:px-8">
+            <div className="relative w-full flex items-center justify-center px-4 sm:px-6 lg:px-0">
               {/* Decorative Glow - Top Right */}
               <div
                 className="
@@ -209,7 +209,7 @@ export function Hero() {
       lg:max-w-[420px]
       xl:max-w-[460px]
 
-      aspect-[3/4]
+      aspect-square
 
       rounded-[1.5rem]
       sm:rounded-[2rem]
@@ -262,7 +262,7 @@ export function Hero() {
           block
           w-full
           h-full
-          object-contain
+          object-cover
           object-center
         "
                   />

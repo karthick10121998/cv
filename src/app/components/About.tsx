@@ -84,9 +84,9 @@ export function About() {
           <div className="space-y-8">
             <div className="space-y-4 text-white/70 leading-relaxed text-justify">
               <p>
-                UI/UX and Product Designer with 3+ years of experience designing AI products,
+                UI/UX and Product Designer with 4+ years of experience designing AI products,
                 enterprise applications, dashboards, and responsive web experiences. I make
-                complicated things look suspiciously simple.As a UI/UX and Product Designer with 3+ years of experience, I bring together visual design, product thinking, and a technical understanding of how things are built. My recent work with the Indian Navy’s AI organization, INICAI, has given me the opportunity to design complex AI products across online and fully offline environments. I enjoy taking complicated workflows and turning them into clear, useful experiences — making technology feel less intimidating and a little more human.
+                complicated things look suspiciously simple.As a UI/UX and Product Designer with 4+ years of experience, I bring together visual design, product thinking, and a technical understanding of how things are built. My recent work with the Indian Navy’s AI organization, INICAI, has given me the opportunity to design complex AI products across online and fully offline environments. I enjoy taking complicated workflows and turning them into clear, useful experiences — making technology feel less intimidating and a little more human.
               </p>
               
             </div>
@@ -94,7 +94,7 @@ export function About() {
             {/* Personal Info */}
             <div className="grid grid-cols-2 gap-3">
               {[
-                { label: 'Experience', value: '3+ Years' },
+                { label: 'Experience', value: '4+ Years' },
                 { label: 'Location', value: 'Ariyalur, Tamil Nadu' },
                 { label: 'Specialization', value: 'AI + Product Design' },
                 { label: 'Phone', value: '+91 8489215911' },

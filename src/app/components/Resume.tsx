@@ -14,7 +14,7 @@ export function Resume() {
     {
       title: 'UI/UX Designer',
       company: 'Cloudstrats — Indian Navy / INICAI',
-      period: 'June 2026 – Present',
+      period: 'June 2026 – September 2026',
       location: 'India',
       current: true,
       description: [
